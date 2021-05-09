@@ -62,6 +62,7 @@ const BarChart = () => {
     };
 
     return(
+        
         <Chart
             options={{...options, xaxis: chartData.labels}}
             series={chartData.series}
